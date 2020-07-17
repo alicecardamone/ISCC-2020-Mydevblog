@@ -1,0 +1,109 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    background-color: coral;
+    text-align: left;
+}
+
+nav {
+    display: block;
+    font-size: 20px;
+    background-image: url(../image/paillettes_vie.jpg);
+    padding-right: 50px;
+    margin: 0px;
+    color: orangered;
+    text-align: left;
+    vertical-align: middle;
+    content: 810px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: right;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+li a:hover {
+    color: darkgray;
+    font-weight: bold;
+}
+
+#container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+form {
+    width: 600px;
+    padding: 25px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid orchid;
+    background-color: antiquewhite;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: chocolate;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: navajowhite;
+    color: chocolate;
+    border: 1px solid orangered;
+}
+
+footer {
+    background-color: goldenrod;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    bottom: 0px;
+    font-size: 20px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 20px;
+}
+
+#table-scroll {
+    height: 550px;
+    overflow: auto;
+    margin-top: 20px
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+}
